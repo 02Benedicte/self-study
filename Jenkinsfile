@@ -4,6 +4,7 @@ pipeline {
         stage ("stage 1") {
             steps {
                 echo "building stage"
+                echo "commitment"
             }
         }
 
